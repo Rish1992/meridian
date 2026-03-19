@@ -9,40 +9,38 @@
   <rect x="20" y="10" width="360" height="540" rx="3" ry="3" fill="#FDFCF8" filter="url(#paper-shadow)"/>
   <rect x="20" y="10" width="360" height="540" rx="3" ry="3" fill="#EDE8D8" opacity="0.16"/>
 
-  <!-- Header strip - green for food/restaurant -->
-  <rect x="20" y="10" width="360" height="72" rx="3" ry="3" fill="#14532D"/>
-  <rect x="20" y="50" width="360" height="32" fill="#14532D"/>
+  <!-- Header strip - Costa Coffee deep red -->
+  <rect x="20" y="10" width="360" height="72" rx="3" ry="3" fill="#6B1C1C"/>
+  <rect x="20" y="50" width="360" height="32" fill="#6B1C1C"/>
 
-  <!-- Fork and knife icon -->
-  <line x1="42" y1="24" x2="42" y2="58" stroke="#86EFAC" stroke-width="2"/>
-  <line x1="38" y1="24" x2="38" y2="36" stroke="#86EFAC" stroke-width="1.5"/>
-  <line x1="46" y1="24" x2="46" y2="36" stroke="#86EFAC" stroke-width="1.5"/>
-  <line x1="38" y1="36" x2="46" y2="36" stroke="#86EFAC" stroke-width="1.5"/>
-  <line x1="62" y1="24" x2="62" y2="58" stroke="#86EFAC" stroke-width="2"/>
-  <path d="M 57 24 Q 57 36 62 38 Q 67 36 67 24" fill="none" stroke="#86EFAC" stroke-width="1.5"/>
+  <!-- Coffee cup icon -->
+  <rect x="36" y="26" width="22" height="20" rx="2" fill="none" stroke="#F4A460" stroke-width="1.5"/>
+  <line x1="58" y1="32" x2="63" y2="32" stroke="#F4A460" stroke-width="1.5"/>
+  <line x1="63" y1="32" x2="63" y2="40" stroke="#F4A460" stroke-width="1.5"/>
+  <line x1="58" y1="40" x2="63" y2="40" stroke="#F4A460" stroke-width="1.5"/>
+  <rect x="36" y="46" width="22" height="3" rx="1" fill="#F4A460"/>
+  <path d="M 42 26 Q 42 20 45 18 Q 48 20 48 26" fill="none" stroke="#F4A460" stroke-width="1.2"/>
 
   <!-- Header text -->
-  <text x="82" y="34" font-family="'Arial', sans-serif" font-size="13" font-weight="700" fill="#FFFFFF" letter-spacing="2">RESTAURANT RECEIPT</text>
-  <text x="82" y="51" font-family="'Arial', sans-serif" font-size="10" fill="#86EFAC" letter-spacing="1">DINING — TABLE SERVICE</text>
-  <text x="200" y="75" font-family="'Georgia', serif" font-size="13" font-weight="700" fill="#FFFFFF" text-anchor="middle" letter-spacing="0.5">Bukhara — ITC Maurya, New Delhi</text>
+  <text x="82" y="34" font-family="'Arial', sans-serif" font-size="13" font-weight="700" fill="#FFFFFF" letter-spacing="2">FOOD RECEIPT</text>
+  <text x="82" y="51" font-family="'Arial', sans-serif" font-size="10" fill="#F4A460" letter-spacing="1">COSTA COFFEE — ORDER SUMMARY</text>
+  <text x="200" y="75" font-family="'Georgia', serif" font-size="13" font-weight="700" fill="#FFFFFF" text-anchor="middle" letter-spacing="0.5">Heathrow Costa Coffee</text>
 
   <line x1="30" y1="97" x2="370" y2="97" stroke="#DDD8C8" stroke-width="0.5" stroke-dasharray="4,3"/>
 
   <!-- Bill reference -->
-  <text x="40" y="116" font-family="'Arial', sans-serif" font-size="9" fill="#888880" letter-spacing="1">BILL NO.</text>
-  <text x="40" y="130" font-family="'Courier New', monospace" font-size="11" font-weight="700" fill="#2C2A27">BKH-2025-01142</text>
+  <text x="40" y="116" font-family="'Arial', sans-serif" font-size="9" fill="#888880" letter-spacing="1">ORDER NO.</text>
+  <text x="40" y="130" font-family="'Courier New', monospace" font-size="11" font-weight="700" fill="#2C2A27">CST-LHR-20251005-4471</text>
   <text x="360" y="116" font-family="'Arial', sans-serif" font-size="9" fill="#888880" text-anchor="end" letter-spacing="1">DATE &amp; TIME</text>
-  <text x="360" y="130" font-family="'Arial', sans-serif" font-size="11" fill="#2C2A27" text-anchor="end">18 Jan 2025, 8:30 PM</text>
+  <text x="360" y="130" font-family="'Arial', sans-serif" font-size="11" fill="#2C2A27" text-anchor="end">05 Oct 2025, 09:14 AM</text>
 
   <line x1="30" y1="142" x2="370" y2="142" stroke="#DDD8C8" stroke-width="0.5"/>
 
-  <!-- Table info -->
-  <text x="40" y="158" font-family="'Arial', sans-serif" font-size="9" fill="#888880" letter-spacing="1">TABLE</text>
-  <text x="40" y="172" font-family="'Arial', sans-serif" font-size="11" fill="#2C2A27">Table 8 — Indoor</text>
-  <text x="200" y="158" font-family="'Arial', sans-serif" font-size="9" fill="#888880" letter-spacing="1">COVERS</text>
-  <text x="200" y="172" font-family="'Arial', sans-serif" font-size="11" fill="#2C2A27">4 Guests</text>
+  <!-- Location info -->
+  <text x="40" y="158" font-family="'Arial', sans-serif" font-size="9" fill="#888880" letter-spacing="1">LOCATION</text>
+  <text x="40" y="172" font-family="'Arial', sans-serif" font-size="11" fill="#2C2A27">Heathrow Airport — Terminal 2, Departures</text>
   <text x="310" y="158" font-family="'Arial', sans-serif" font-size="9" fill="#888880" letter-spacing="1">SERVER</text>
-  <text x="310" y="172" font-family="'Arial', sans-serif" font-size="11" fill="#2C2A27">Amit R.</text>
+  <text x="310" y="172" font-family="'Arial', sans-serif" font-size="11" fill="#2C2A27">Emma L.</text>
 
   <line x1="30" y1="183" x2="370" y2="183" stroke="#DDD8C8" stroke-width="0.5"/>
 
@@ -52,68 +50,56 @@
   <text x="360" y="198" font-family="'Arial', sans-serif" font-size="9" font-weight="700" fill="#888880" text-anchor="end" letter-spacing="1">AMOUNT</text>
   <line x1="30" y1="204" x2="370" y2="204" stroke="#DDD8C8" stroke-width="0.5"/>
 
-  <!-- Food items -->
-  <text x="40" y="221" font-family="'Arial', sans-serif" font-size="11" fill="#2C2A27">Dal Bukhara (signature)</text>
-  <text x="260" y="221" font-family="'Arial', sans-serif" font-size="11" fill="#666660" text-anchor="end">×1</text>
-  <text x="360" y="221" font-family="'Courier New', monospace" font-size="11" fill="#2C2A27" text-anchor="end">₹  975</text>
+  <!-- Food items — must total £14.50 -->
+  <text x="40" y="224" font-family="'Arial', sans-serif" font-size="11" fill="#2C2A27">Egg &amp; Cress Sandwich</text>
+  <text x="260" y="224" font-family="'Arial', sans-serif" font-size="11" fill="#666660" text-anchor="end">×1</text>
+  <text x="360" y="224" font-family="'Courier New', monospace" font-size="11" fill="#2C2A27" text-anchor="end">£  4.50</text>
 
-  <text x="40" y="238" font-family="'Arial', sans-serif" font-size="11" fill="#2C2A27">Sikandari Raan</text>
-  <text x="260" y="238" font-family="'Arial', sans-serif" font-size="11" fill="#666660" text-anchor="end">×1</text>
-  <text x="360" y="238" font-family="'Courier New', monospace" font-size="11" fill="#2C2A27" text-anchor="end">₹ 2,450</text>
+  <text x="40" y="244" font-family="'Arial', sans-serif" font-size="11" fill="#2C2A27">Flat White (Large)</text>
+  <text x="260" y="244" font-family="'Arial', sans-serif" font-size="11" fill="#666660" text-anchor="end">×1</text>
+  <text x="360" y="244" font-family="'Courier New', monospace" font-size="11" fill="#2C2A27" text-anchor="end">£  3.95</text>
 
-  <text x="40" y="255" font-family="'Arial', sans-serif" font-size="11" fill="#2C2A27">Tandoori Murgh (half)</text>
-  <text x="260" y="255" font-family="'Arial', sans-serif" font-size="11" fill="#666660" text-anchor="end">×2</text>
-  <text x="360" y="255" font-family="'Courier New', monospace" font-size="11" fill="#2C2A27" text-anchor="end">₹ 2,300</text>
+  <text x="40" y="264" font-family="'Arial', sans-serif" font-size="11" fill="#2C2A27">Cappuccino (Regular)</text>
+  <text x="260" y="264" font-family="'Arial', sans-serif" font-size="11" fill="#666660" text-anchor="end">×1</text>
+  <text x="360" y="264" font-family="'Courier New', monospace" font-size="11" fill="#2C2A27" text-anchor="end">£  3.55</text>
 
-  <text x="40" y="272" font-family="'Arial', sans-serif" font-size="11" fill="#2C2A27">Roomali Roti</text>
-  <text x="260" y="272" font-family="'Arial', sans-serif" font-size="11" fill="#666660" text-anchor="end">×6</text>
-  <text x="360" y="272" font-family="'Courier New', monospace" font-size="11" fill="#2C2A27" text-anchor="end">₹   540</text>
+  <text x="40" y="284" font-family="'Arial', sans-serif" font-size="11" fill="#2C2A27">Oat Milk Supplement</text>
+  <text x="260" y="284" font-family="'Arial', sans-serif" font-size="11" fill="#666660" text-anchor="end">×1</text>
+  <text x="360" y="284" font-family="'Courier New', monospace" font-size="11" fill="#2C2A27" text-anchor="end">£  0.50</text>
 
-  <text x="40" y="289" font-family="'Arial', sans-serif" font-size="11" fill="#2C2A27">Mixed Raita</text>
-  <text x="260" y="289" font-family="'Arial', sans-serif" font-size="11" fill="#666660" text-anchor="end">×1</text>
-  <text x="360" y="289" font-family="'Courier New', monospace" font-size="11" fill="#2C2A27" text-anchor="end">₹   280</text>
+  <text x="40" y="304" font-family="'Arial', sans-serif" font-size="11" fill="#2C2A27">Still Water (500ml)</text>
+  <text x="260" y="304" font-family="'Arial', sans-serif" font-size="11" fill="#666660" text-anchor="end">×1</text>
+  <text x="360" y="304" font-family="'Courier New', monospace" font-size="11" fill="#2C2A27" text-anchor="end">£  2.00</text>
 
-  <text x="40" y="306" font-family="'Arial', sans-serif" font-size="11" fill="#2C2A27">Gulab Jamun (4 pcs)</text>
-  <text x="260" y="306" font-family="'Arial', sans-serif" font-size="11" fill="#666660" text-anchor="end">×1</text>
-  <text x="360" y="306" font-family="'Courier New', monospace" font-size="11" fill="#2C2A27" text-anchor="end">₹   360</text>
+  <line x1="30" y1="316" x2="370" y2="316" stroke="#DDD8C8" stroke-width="0.5" stroke-dasharray="4,3"/>
 
-  <text x="40" y="323" font-family="'Arial', sans-serif" font-size="11" fill="#2C2A27">Mineral Water (750ml)</text>
-  <text x="260" y="323" font-family="'Arial', sans-serif" font-size="11" fill="#666660" text-anchor="end">×3</text>
-  <text x="360" y="323" font-family="'Courier New', monospace" font-size="11" fill="#2C2A27" text-anchor="end">₹   360</text>
+  <text x="260" y="332" font-family="'Arial', sans-serif" font-size="10" fill="#666660">Subtotal</text>
+  <text x="360" y="332" font-family="'Courier New', monospace" font-size="10" fill="#666660" text-anchor="end">£ 14.50</text>
 
-  <text x="40" y="340" font-family="'Arial', sans-serif" font-size="11" fill="#2C2A27">Fresh Lime Soda</text>
-  <text x="260" y="340" font-family="'Arial', sans-serif" font-size="11" fill="#666660" text-anchor="end">×2</text>
-  <text x="360" y="340" font-family="'Courier New', monospace" font-size="11" fill="#2C2A27" text-anchor="end">₹   300</text>
+  <text x="260" y="348" font-family="'Arial', sans-serif" font-size="10" fill="#666660">VAT (incl. in price)</text>
+  <text x="360" y="348" font-family="'Courier New', monospace" font-size="10" fill="#666660" text-anchor="end">£  2.42</text>
 
-  <line x1="30" y1="351" x2="370" y2="351" stroke="#DDD8C8" stroke-width="0.5" stroke-dasharray="4,3"/>
+  <line x1="240" y1="358" x2="370" y2="358" stroke="#6B1C1C" stroke-width="1"/>
 
-  <text x="260" y="366" font-family="'Arial', sans-serif" font-size="10" fill="#666660">Subtotal</text>
-  <text x="360" y="366" font-family="'Courier New', monospace" font-size="10" fill="#666660" text-anchor="end">₹ 7,565</text>
+  <rect x="240" y="363" width="130" height="26" rx="2" fill="#6B1C1C" opacity="0.1"/>
+  <text x="252" y="381" font-family="'Arial', sans-serif" font-size="11" font-weight="700" fill="#6B1C1C">TOTAL PAID</text>
+  <text x="358" y="381" font-family="'Courier New', monospace" font-size="12" font-weight="700" fill="#6B1C1C" text-anchor="end">£ 14.50</text>
 
-  <text x="260" y="382" font-family="'Arial', sans-serif" font-size="10" fill="#666660">CGST (2.5%)</text>
-  <text x="360" y="382" font-family="'Courier New', monospace" font-size="10" fill="#666660" text-anchor="end">₹   189</text>
+  <!-- Currency -->
+  <text x="40" y="380" font-family="'Arial', sans-serif" font-size="9" fill="#888880" letter-spacing="1">CURRENCY</text>
+  <text x="40" y="394" font-family="'Arial', sans-serif" font-size="10" fill="#2C2A27">GBP — British Pound Sterling</text>
 
-  <text x="260" y="397" font-family="'Arial', sans-serif" font-size="10" fill="#666660">SGST (2.5%)</text>
-  <text x="360" y="397" font-family="'Courier New', monospace" font-size="10" fill="#666660" text-anchor="end">₹   189</text>
+  <text x="40" y="414" font-family="'Arial', sans-serif" font-size="9" fill="#888880" letter-spacing="1">PAYMENT METHOD</text>
+  <text x="40" y="428" font-family="'Arial', sans-serif" font-size="10" fill="#2C2A27">Contactless Card</text>
 
-  <text x="260" y="413" font-family="'Arial', sans-serif" font-size="10" fill="#666660">Service Charge (10%)</text>
-  <text x="360" y="413" font-family="'Courier New', monospace" font-size="10" fill="#666660" text-anchor="end">₹   757</text>
+  <line x1="30" y1="440" x2="370" y2="440" stroke="#DDD8C8" stroke-width="0.5" stroke-dasharray="4,3"/>
 
-  <line x1="240" y1="421" x2="370" y2="421" stroke="#14532D" stroke-width="1"/>
-
-  <rect x="240" y="426" width="130" height="26" rx="2" fill="#14532D" opacity="0.1"/>
-  <text x="252" y="444" font-family="'Arial', sans-serif" font-size="11" font-weight="700" fill="#14532D">TOTAL PAID</text>
-  <text x="358" y="444" font-family="'Courier New', monospace" font-size="12" font-weight="700" fill="#14532D" text-anchor="end">₹ 8,700</text>
-
-  <text x="40" y="444" font-family="'Arial', sans-serif" font-size="9" fill="#888880" letter-spacing="1">PAYMENT METHOD</text>
-  <text x="40" y="458" font-family="'Arial', sans-serif" font-size="10" fill="#2C2A27">SBI Corporate Card •••• 5512</text>
-
-  <line x1="30" y1="467" x2="370" y2="467" stroke="#DDD8C8" stroke-width="0.5" stroke-dasharray="4,3"/>
-
-  <text x="200" y="484" font-family="'Arial', sans-serif" font-size="8" fill="#AAAAAA" text-anchor="middle">Bukhara, ITC Maurya Hotel, Sardar Patel Marg, New Delhi 110 021</text>
-  <text x="200" y="498" font-family="'Arial', sans-serif" font-size="8" fill="#AAAAAA" text-anchor="middle">FSSAI: 10020051000248  |  GSTIN: 07AAACI3612F1ZF</text>
+  <text x="200" y="458" font-family="'Arial', sans-serif" font-size="8" fill="#AAAAAA" text-anchor="middle">Costa Coffee, Heathrow Airport Terminal 2, Hounslow TW6 1EW</text>
+  <text x="200" y="472" font-family="'Arial', sans-serif" font-size="8" fill="#AAAAAA" text-anchor="middle">VAT No: GB 243 7611 88  |  Costa Ltd, Whitbread Court</text>
+  <text x="200" y="486" font-family="'Arial', sans-serif" font-size="8" fill="#AAAAAA" text-anchor="middle">FSSAI equivalent: UK Food Standards Agency Compliant</text>
 
   <!-- Decorative wavy bottom edge (receipt tear) -->
-  <path d="M 20 530 Q 30 524 40 530 Q 50 536 60 530 Q 70 524 80 530 Q 90 536 100 530 Q 110 524 120 530 Q 130 536 140 530 Q 150 524 160 530 Q 170 536 180 530 Q 190 524 200 530 Q 210 536 220 530 Q 230 524 240 530 Q 250 536 260 530 Q 270 524 280 530 Q 290 536 300 530 Q 310 524 320 530 Q 330 536 340 530 Q 350 524 360 530 Q 370 536 380 530" fill="none" stroke="#DDD8C8" stroke-width="1"/>
-  <text x="200" y="548" font-family="'Arial', sans-serif" font-size="8" fill="#AAAAAA" text-anchor="middle">Thank you for dining with us. Please visit again!</text>
+  <path d="M 20 505 Q 30 499 40 505 Q 50 511 60 505 Q 70 499 80 505 Q 90 511 100 505 Q 110 499 120 505 Q 130 511 140 505 Q 150 499 160 505 Q 170 511 180 505 Q 190 499 200 505 Q 210 511 220 505 Q 230 499 240 505 Q 250 511 260 505 Q 270 499 280 505 Q 290 511 300 505 Q 310 499 320 505 Q 330 511 340 505 Q 350 499 360 505 Q 370 511 380 505" fill="none" stroke="#DDD8C8" stroke-width="1"/>
+  <text x="200" y="524" font-family="'Arial', sans-serif" font-size="8" fill="#AAAAAA" text-anchor="middle">Thank you for your order. Have a great flight!</text>
+  <text x="200" y="538" font-family="'Arial', sans-serif" font-size="8" fill="#AAAAAA" text-anchor="middle">www.costacoffee.com  |  Download the Costa app</text>
 </svg>

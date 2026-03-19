@@ -9,111 +9,112 @@
   <rect x="20" y="10" width="360" height="540" rx="3" ry="3" fill="#F8F6F2" filter="url(#paper-shadow)"/>
   <rect x="20" y="10" width="360" height="540" rx="3" ry="3" fill="#EAE6DD" opacity="0.15"/>
 
-  <!-- Header strip - deep blue for hotel -->
-  <rect x="20" y="10" width="360" height="72" rx="3" ry="3" fill="#1E3A5F"/>
-  <rect x="20" y="50" width="360" height="32" fill="#1E3A5F"/>
+  <!-- Header strip - JW Marriott gold/dark tone -->
+  <rect x="20" y="10" width="360" height="72" rx="3" ry="3" fill="#1A1A1A"/>
+  <rect x="20" y="50" width="360" height="32" fill="#1A1A1A"/>
+
+  <!-- Gold accent bar -->
+  <rect x="20" y="79" width="360" height="3" fill="#B8973E"/>
 
   <!-- Hotel icon: building shape -->
-  <rect x="38" y="22" width="28" height="38" rx="1" fill="none" stroke="#7FB3D3" stroke-width="1.5"/>
-  <rect x="43" y="28" width="5" height="5" fill="#7FB3D3"/>
-  <rect x="52" y="28" width="5" height="5" fill="#7FB3D3"/>
-  <rect x="43" y="38" width="5" height="5" fill="#7FB3D3"/>
-  <rect x="52" y="38" width="5" height="5" fill="#7FB3D3"/>
-  <rect x="46" y="48" width="8" height="12" fill="#7FB3D3"/>
+  <rect x="38" y="22" width="28" height="38" rx="1" fill="none" stroke="#B8973E" stroke-width="1.5"/>
+  <rect x="43" y="28" width="5" height="5" fill="#B8973E"/>
+  <rect x="52" y="28" width="5" height="5" fill="#B8973E"/>
+  <rect x="43" y="38" width="5" height="5" fill="#B8973E"/>
+  <rect x="52" y="38" width="5" height="5" fill="#B8973E"/>
+  <rect x="46" y="48" width="8" height="12" fill="#B8973E"/>
 
   <!-- Header text -->
   <text x="78" y="34" font-family="'Arial', sans-serif" font-size="13" font-weight="700" fill="#FFFFFF" letter-spacing="2">HOTEL RECEIPT</text>
-  <text x="78" y="52" font-family="'Arial', sans-serif" font-size="10" fill="#7FB3D3" letter-spacing="1">ACCOMMODATION</text>
-  <text x="200" y="76" font-family="'Georgia', serif" font-size="14" font-weight="700" fill="#FFFFFF" text-anchor="middle" letter-spacing="1">Hilton London Heathrow</text>
+  <text x="78" y="52" font-family="'Arial', sans-serif" font-size="10" fill="#B8973E" letter-spacing="1">ACCOMMODATION — JW MARRIOTT</text>
 
-  <!-- Hilton blue accent bar -->
-  <rect x="20" y="82" width="360" height="3" fill="#003087"/>
+  <!-- Hotel brand name -->
+  <text x="200" y="75" font-family="'Georgia', serif" font-size="14" font-weight="700" fill="#FFFFFF" text-anchor="middle" letter-spacing="1">JW Marriott Mumbai</text>
 
   <line x1="30" y1="98" x2="370" y2="98" stroke="#D1C9BC" stroke-width="0.5" stroke-dasharray="4,3"/>
 
   <!-- Booking reference -->
   <text x="40" y="118" font-family="'Arial', sans-serif" font-size="9" fill="#888880" letter-spacing="1">BOOKING REFERENCE</text>
-  <text x="40" y="133" font-family="'Courier New', monospace" font-size="11" font-weight="700" fill="#2C2A27">HLT-LHR-2025-C74832</text>
-  <text x="360" y="133" font-family="'Arial', sans-serif" font-size="9" fill="#888880" text-anchor="end">VAT INVOICE</text>
+  <text x="40" y="133" font-family="'Courier New', monospace" font-size="11" font-weight="700" fill="#2C2A27">JWM-BOM-20251018-5541</text>
+  <text x="360" y="133" font-family="'Arial', sans-serif" font-size="9" fill="#888880" text-anchor="end">TAX INVOICE</text>
 
   <line x1="30" y1="143" x2="370" y2="143" stroke="#D1C9BC" stroke-width="0.5"/>
 
   <!-- Guest info -->
   <text x="40" y="160" font-family="'Arial', sans-serif" font-size="9" fill="#888880" letter-spacing="1">GUEST NAME</text>
-  <text x="40" y="174" font-family="'Arial', sans-serif" font-size="11" fill="#2C2A27">Priya Sharma</text>
-  <text x="240" y="160" font-family="'Arial', sans-serif" font-size="9" fill="#888880" letter-spacing="1">ROOM NO.</text>
-  <text x="240" y="174" font-family="'Arial', sans-serif" font-size="11" fill="#2C2A27">312 — Executive Twin</text>
+  <text x="40" y="174" font-family="'Arial', sans-serif" font-size="11" fill="#2C2A27">Corporate Guest</text>
+  <text x="240" y="160" font-family="'Arial', sans-serif" font-size="9" fill="#888880" letter-spacing="1">ROOM TYPE</text>
+  <text x="240" y="174" font-family="'Arial', sans-serif" font-size="11" fill="#2C2A27">Deluxe Room</text>
 
   <text x="40" y="193" font-family="'Arial', sans-serif" font-size="9" fill="#888880" letter-spacing="1">CHECK-IN</text>
-  <text x="40" y="207" font-family="'Arial', sans-serif" font-size="11" fill="#2C2A27">08 Feb 2025</text>
+  <text x="40" y="207" font-family="'Arial', sans-serif" font-size="11" fill="#2C2A27">18 Oct 2025</text>
   <text x="160" y="193" font-family="'Arial', sans-serif" font-size="9" fill="#888880" letter-spacing="1">CHECK-OUT</text>
-  <text x="160" y="207" font-family="'Arial', sans-serif" font-size="11" fill="#2C2A27">11 Feb 2025</text>
+  <text x="160" y="207" font-family="'Arial', sans-serif" font-size="11" fill="#2C2A27">19 Oct 2025</text>
   <text x="300" y="193" font-family="'Arial', sans-serif" font-size="9" fill="#888880" letter-spacing="1">NIGHTS</text>
-  <text x="300" y="207" font-family="'Arial', sans-serif" font-size="11" fill="#2C2A27">3</text>
+  <text x="300" y="207" font-family="'Arial', sans-serif" font-size="11" fill="#2C2A27">1</text>
 
   <line x1="30" y1="218" x2="370" y2="218" stroke="#D1C9BC" stroke-width="0.5"/>
 
   <!-- Line items header -->
   <text x="40" y="234" font-family="'Arial', sans-serif" font-size="9" font-weight="700" fill="#888880" letter-spacing="1">DESCRIPTION</text>
-  <text x="360" y="234" font-family="'Arial', sans-serif" font-size="9" font-weight="700" fill="#888880" text-anchor="end" letter-spacing="1">AMOUNT (GBP)</text>
+  <text x="360" y="234" font-family="'Arial', sans-serif" font-size="9" font-weight="700" fill="#888880" text-anchor="end" letter-spacing="1">AMOUNT (INR)</text>
+
   <line x1="30" y1="240" x2="370" y2="240" stroke="#D1C9BC" stroke-width="0.5"/>
 
-  <!-- Line items -->
-  <text x="40" y="258" font-family="'Arial', sans-serif" font-size="11" fill="#2C2A27">Room Rate — Executive Twin (3 nts)</text>
-  <text x="360" y="258" font-family="'Courier New', monospace" font-size="11" fill="#2C2A27" text-anchor="end">£ 447.00</text>
+  <!-- Line items — total must equal ₹14,500 -->
+  <text x="40" y="258" font-family="'Arial', sans-serif" font-size="11" fill="#2C2A27">Room Charge — Deluxe Room (1 nt)</text>
+  <text x="360" y="258" font-family="'Courier New', monospace" font-size="11" fill="#2C2A27" text-anchor="end">₹ 11,864</text>
 
-  <text x="40" y="276" font-family="'Arial', sans-serif" font-size="11" fill="#2C2A27">Club Lounge Access</text>
-  <text x="360" y="276" font-family="'Courier New', monospace" font-size="11" fill="#2C2A27" text-anchor="end">£  45.00</text>
+  <text x="40" y="276" font-family="'Arial', sans-serif" font-size="11" fill="#2C2A27">CGST (6%)</text>
+  <text x="360" y="276" font-family="'Courier New', monospace" font-size="11" fill="#2C2A27" text-anchor="end">₹    712</text>
 
-  <text x="40" y="294" font-family="'Arial', sans-serif" font-size="11" fill="#2C2A27">Heathrow Express (return)</text>
-  <text x="360" y="294" font-family="'Courier New', monospace" font-size="11" fill="#2C2A27" text-anchor="end">£  37.50</text>
+  <text x="40" y="294" font-family="'Arial', sans-serif" font-size="11" fill="#2C2A27">SGST (6%)</text>
+  <text x="360" y="294" font-family="'Courier New', monospace" font-size="11" fill="#2C2A27" text-anchor="end">₹    712</text>
 
-  <text x="40" y="312" font-family="'Arial', sans-serif" font-size="11" fill="#2C2A27">Room Service (3 occasions)</text>
-  <text x="360" y="312" font-family="'Courier New', monospace" font-size="11" fill="#2C2A27" text-anchor="end">£  68.40</text>
+  <text x="40" y="312" font-family="'Arial', sans-serif" font-size="11" fill="#2C2A27">City Levy</text>
+  <text x="360" y="312" font-family="'Courier New', monospace" font-size="11" fill="#2C2A27" text-anchor="end">₹  1,212</text>
 
-  <text x="40" y="330" font-family="'Arial', sans-serif" font-size="11" fill="#2C2A27">Spa Treatment</text>
-  <text x="360" y="330" font-family="'Courier New', monospace" font-size="11" fill="#2C2A27" text-anchor="end">£  85.00</text>
+  <line x1="30" y1="325" x2="370" y2="325" stroke="#D1C9BC" stroke-width="0.5" stroke-dasharray="4,3"/>
 
-  <line x1="30" y1="342" x2="370" y2="342" stroke="#D1C9BC" stroke-width="0.5" stroke-dasharray="4,3"/>
+  <!-- Total -->
+  <line x1="240" y1="344" x2="370" y2="344" stroke="#1A1A1A" stroke-width="1"/>
+  <rect x="240" y="349" width="130" height="26" rx="2" fill="#1A1A1A" opacity="0.08"/>
+  <text x="252" y="367" font-family="'Arial', sans-serif" font-size="11" font-weight="700" fill="#1A1A1A">TOTAL PAID</text>
+  <text x="358" y="367" font-family="'Courier New', monospace" font-size="12" font-weight="700" fill="#1A1A1A" text-anchor="end">₹ 14,500</text>
 
-  <text x="260" y="358" font-family="'Arial', sans-serif" font-size="10" fill="#666660">Subtotal</text>
-  <text x="360" y="358" font-family="'Courier New', monospace" font-size="10" fill="#666660" text-anchor="end">£ 682.90</text>
+  <!-- Currency note -->
+  <text x="40" y="366" font-family="'Arial', sans-serif" font-size="9" fill="#888880" letter-spacing="1">CURRENCY</text>
+  <text x="40" y="380" font-family="'Arial', sans-serif" font-size="10" fill="#2C2A27">INR — Indian Rupee</text>
 
-  <text x="260" y="374" font-family="'Arial', sans-serif" font-size="10" fill="#666660">VAT (20%)</text>
-  <text x="360" y="374" font-family="'Courier New', monospace" font-size="10" fill="#666660" text-anchor="end">£ 136.58</text>
+  <!-- GST Number -->
+  <text x="40" y="400" font-family="'Arial', sans-serif" font-size="9" fill="#888880" letter-spacing="1">GST NUMBER</text>
+  <text x="40" y="414" font-family="'Courier New', monospace" font-size="10" fill="#2C2A27">27AABCJ1234A1ZX</text>
 
-  <text x="260" y="390" font-family="'Arial', sans-serif" font-size="10" fill="#666660">City Tax (£4/night)</text>
-  <text x="360" y="390" font-family="'Courier New', monospace" font-size="10" fill="#666660" text-anchor="end">£  12.00</text>
+  <!-- Payment method -->
+  <text x="40" y="434" font-family="'Arial', sans-serif" font-size="9" fill="#888880" letter-spacing="1">PAYMENT METHOD</text>
+  <text x="40" y="448" font-family="'Arial', sans-serif" font-size="10" fill="#2C2A27">Corporate Card •••• 7731</text>
 
-  <line x1="240" y1="398" x2="370" y2="398" stroke="#1E3A5F" stroke-width="1"/>
+  <line x1="30" y1="460" x2="370" y2="460" stroke="#D1C9BC" stroke-width="0.5" stroke-dasharray="4,3"/>
 
-  <rect x="240" y="403" width="130" height="26" rx="2" fill="#1E3A5F" opacity="0.08"/>
-  <text x="252" y="421" font-family="'Arial', sans-serif" font-size="11" font-weight="700" fill="#1E3A5F">TOTAL PAID</text>
-  <text x="358" y="421" font-family="'Courier New', monospace" font-size="12" font-weight="700" fill="#1E3A5F" text-anchor="end">£ 831.48</text>
-
-  <text x="40" y="420" font-family="'Arial', sans-serif" font-size="9" fill="#888880" letter-spacing="1">PAYMENT METHOD</text>
-  <text x="40" y="434" font-family="'Arial', sans-serif" font-size="10" fill="#2C2A27">Visa Corporate •••• 7731</text>
-
-  <line x1="30" y1="445" x2="370" y2="445" stroke="#D1C9BC" stroke-width="0.5" stroke-dasharray="4,3"/>
-
-  <text x="200" y="462" font-family="'Arial', sans-serif" font-size="8" fill="#AAAAAA" text-anchor="middle">Hilton London Heathrow, Terminal 4, Heathrow Airport, TW6 3AF</text>
-  <text x="200" y="476" font-family="'Arial', sans-serif" font-size="8" fill="#AAAAAA" text-anchor="middle">VAT No: GB 238 5567 90  |  Tel: +44 20 8759 7755</text>
-  <text x="200" y="490" font-family="'Arial', sans-serif" font-size="8" fill="#AAAAAA" text-anchor="middle">This is a computer-generated receipt and does not require a signature.</text>
+  <!-- Footer -->
+  <text x="200" y="477" font-family="'Arial', sans-serif" font-size="8" fill="#AAAAAA" text-anchor="middle">JW Marriott Mumbai, Juhu Tara Road, Juhu, Mumbai 400 049</text>
+  <text x="200" y="490" font-family="'Arial', sans-serif" font-size="8" fill="#AAAAAA" text-anchor="middle">Tel: +91 22 6693 3000  |  GSTIN: 27AABCJ1234A1ZX</text>
+  <text x="200" y="503" font-family="'Arial', sans-serif" font-size="8" fill="#AAAAAA" text-anchor="middle">This is a computer-generated receipt and does not require a signature.</text>
 
   <!-- Barcode stand-in -->
-  <rect x="156" y="503" width="3" height="22" fill="#CCCCCC"/>
-  <rect x="161" y="503" width="5" height="22" fill="#CCCCCC"/>
-  <rect x="168" y="503" width="2" height="22" fill="#CCCCCC"/>
-  <rect x="172" y="503" width="6" height="22" fill="#CCCCCC"/>
-  <rect x="180" y="503" width="3" height="22" fill="#CCCCCC"/>
-  <rect x="185" y="503" width="4" height="22" fill="#CCCCCC"/>
-  <rect x="191" y="503" width="7" height="22" fill="#CCCCCC"/>
-  <rect x="200" y="503" width="2" height="22" fill="#CCCCCC"/>
-  <rect x="204" y="503" width="5" height="22" fill="#CCCCCC"/>
-  <rect x="211" y="503" width="3" height="22" fill="#CCCCCC"/>
-  <rect x="216" y="503" width="6" height="22" fill="#CCCCCC"/>
-  <rect x="224" y="503" width="2" height="22" fill="#CCCCCC"/>
-  <rect x="228" y="503" width="4" height="22" fill="#CCCCCC"/>
-  <rect x="234" y="503" width="5" height="22" fill="#CCCCCC"/>
-  <rect x="241" y="503" width="3" height="22" fill="#CCCCCC"/>
+  <rect x="156" y="516" width="3" height="18" fill="#CCCCCC"/>
+  <rect x="161" y="516" width="5" height="18" fill="#CCCCCC"/>
+  <rect x="168" y="516" width="2" height="18" fill="#CCCCCC"/>
+  <rect x="172" y="516" width="6" height="18" fill="#CCCCCC"/>
+  <rect x="180" y="516" width="3" height="18" fill="#CCCCCC"/>
+  <rect x="185" y="516" width="4" height="18" fill="#CCCCCC"/>
+  <rect x="191" y="516" width="7" height="18" fill="#CCCCCC"/>
+  <rect x="200" y="516" width="2" height="18" fill="#CCCCCC"/>
+  <rect x="204" y="516" width="5" height="18" fill="#CCCCCC"/>
+  <rect x="211" y="516" width="3" height="18" fill="#CCCCCC"/>
+  <rect x="216" y="516" width="6" height="18" fill="#CCCCCC"/>
+  <rect x="224" y="516" width="2" height="18" fill="#CCCCCC"/>
+  <rect x="228" y="516" width="4" height="18" fill="#CCCCCC"/>
+  <rect x="234" y="516" width="5" height="18" fill="#CCCCCC"/>
+  <rect x="241" y="516" width="3" height="18" fill="#CCCCCC"/>
 </svg>

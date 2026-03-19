@@ -9,38 +9,37 @@
   <rect x="20" y="10" width="360" height="540" rx="3" ry="3" fill="#FDFCF8" filter="url(#paper-shadow)"/>
   <rect x="20" y="10" width="360" height="540" rx="3" ry="3" fill="#EAE5D5" opacity="0.14"/>
 
-  <!-- Header strip - warm teal/green for restaurant -->
-  <rect x="20" y="10" width="360" height="72" rx="3" ry="3" fill="#065F46"/>
-  <rect x="20" y="50" width="360" height="32" fill="#065F46"/>
+  <!-- Header strip - airport lounge steel blue -->
+  <rect x="20" y="10" width="360" height="72" rx="3" ry="3" fill="#1E3A5F"/>
+  <rect x="20" y="50" width="360" height="32" fill="#1E3A5F"/>
 
-  <!-- Stylized plate icon -->
-  <circle cx="52" cy="40" r="16" fill="none" stroke="#6EE7B7" stroke-width="2"/>
-  <circle cx="52" cy="40" r="9" fill="none" stroke="#6EE7B7" stroke-width="1"/>
-  <line x1="52" y1="26" x2="52" y2="54" stroke="#6EE7B7" stroke-width="1" stroke-dasharray="2,2"/>
-  <line x1="38" y1="40" x2="66" y2="40" stroke="#6EE7B7" stroke-width="1" stroke-dasharray="2,2"/>
+  <!-- Lounge/plate icon -->
+  <circle cx="50" cy="38" r="16" fill="none" stroke="#7EB3D3" stroke-width="2"/>
+  <line x1="44" y1="32" x2="44" y2="44" stroke="#7EB3D3" stroke-width="1.5"/>
+  <line x1="50" y1="32" x2="50" y2="44" stroke="#7EB3D3" stroke-width="1.5"/>
+  <line x1="56" y1="32" x2="56" y2="44" stroke="#7EB3D3" stroke-width="1.5"/>
+  <line x1="43" y1="44" x2="57" y2="44" stroke="#7EB3D3" stroke-width="1.5"/>
 
   <!-- Header text -->
-  <text x="82" y="34" font-family="'Arial', sans-serif" font-size="13" font-weight="700" fill="#FFFFFF" letter-spacing="2">RESTAURANT RECEIPT</text>
-  <text x="82" y="51" font-family="'Arial', sans-serif" font-size="10" fill="#6EE7B7" letter-spacing="1">DINING — FINE CASUAL</text>
-  <text x="200" y="75" font-family="'Georgia', serif" font-size="13" font-weight="700" fill="#FFFFFF" text-anchor="middle" letter-spacing="0.5">Smoke House Deli — Bengaluru</text>
+  <text x="82" y="34" font-family="'Arial', sans-serif" font-size="13" font-weight="700" fill="#FFFFFF" letter-spacing="2">LOUNGE RECEIPT</text>
+  <text x="82" y="51" font-family="'Arial', sans-serif" font-size="10" fill="#7EB3D3" letter-spacing="1">AIRPORT LOUNGE — DINING VOUCHER</text>
+  <text x="200" y="75" font-family="'Georgia', serif" font-size="12" font-weight="700" fill="#FFFFFF" text-anchor="middle" letter-spacing="0.5">Airport Lounge — CSIA T2</text>
 
   <line x1="30" y1="97" x2="370" y2="97" stroke="#DDD8C8" stroke-width="0.5" stroke-dasharray="4,3"/>
 
   <!-- Bill reference -->
-  <text x="40" y="116" font-family="'Arial', sans-serif" font-size="9" fill="#888880" letter-spacing="1">BILL NO.</text>
-  <text x="40" y="130" font-family="'Courier New', monospace" font-size="11" font-weight="700" fill="#2C2A27">SHD-BLR-2025-00882</text>
+  <text x="40" y="116" font-family="'Arial', sans-serif" font-size="9" fill="#888880" letter-spacing="1">VOUCHER REFERENCE</text>
+  <text x="40" y="130" font-family="'Courier New', monospace" font-size="11" font-weight="700" fill="#2C2A27">LNG-2025-4821</text>
   <text x="360" y="116" font-family="'Arial', sans-serif" font-size="9" fill="#888880" text-anchor="end" letter-spacing="1">DATE &amp; TIME</text>
-  <text x="360" y="130" font-family="'Arial', sans-serif" font-size="11" fill="#2C2A27" text-anchor="end">05 Feb 2025, 1:15 PM</text>
+  <text x="360" y="130" font-family="'Arial', sans-serif" font-size="11" fill="#2C2A27" text-anchor="end">18 Oct 2025, 01:30 AM</text>
 
   <line x1="30" y1="142" x2="370" y2="142" stroke="#DDD8C8" stroke-width="0.5"/>
 
-  <!-- Table info -->
-  <text x="40" y="158" font-family="'Arial', sans-serif" font-size="9" fill="#888880" letter-spacing="1">TABLE</text>
-  <text x="40" y="172" font-family="'Arial', sans-serif" font-size="11" fill="#2C2A27">Table 14 — Patio</text>
-  <text x="200" y="158" font-family="'Arial', sans-serif" font-size="9" fill="#888880" letter-spacing="1">COVERS</text>
-  <text x="200" y="172" font-family="'Arial', sans-serif" font-size="11" fill="#2C2A27">2 Guests</text>
-  <text x="310" y="158" font-family="'Arial', sans-serif" font-size="9" fill="#888880" letter-spacing="1">SERVER</text>
-  <text x="310" y="172" font-family="'Arial', sans-serif" font-size="11" fill="#2C2A27">Neha S.</text>
+  <!-- Location info -->
+  <text x="40" y="158" font-family="'Arial', sans-serif" font-size="9" fill="#888880" letter-spacing="1">LOUNGE</text>
+  <text x="40" y="172" font-family="'Arial', sans-serif" font-size="11" fill="#2C2A27">Chhatrapati Shivaji Maharaj Intl — Terminal 2</text>
+  <text x="310" y="158" font-family="'Arial', sans-serif" font-size="9" fill="#888880" letter-spacing="1">COVERS</text>
+  <text x="310" y="172" font-family="'Arial', sans-serif" font-size="11" fill="#2C2A27">1 Guest</text>
 
   <line x1="30" y1="183" x2="370" y2="183" stroke="#DDD8C8" stroke-width="0.5"/>
 
@@ -50,67 +49,54 @@
   <text x="360" y="198" font-family="'Arial', sans-serif" font-size="9" font-weight="700" fill="#888880" text-anchor="end" letter-spacing="1">AMOUNT</text>
   <line x1="30" y1="204" x2="370" y2="204" stroke="#DDD8C8" stroke-width="0.5"/>
 
-  <!-- Food items - European/Western casual -->
-  <text x="40" y="221" font-family="'Arial', sans-serif" font-size="11" fill="#2C2A27">Smoked Salmon Bruschetta</text>
-  <text x="260" y="221" font-family="'Arial', sans-serif" font-size="11" fill="#666660" text-anchor="end">×1</text>
-  <text x="360" y="221" font-family="'Courier New', monospace" font-size="11" fill="#2C2A27" text-anchor="end">₹   490</text>
+  <!-- Food items — must total ₹1,800 -->
+  <text x="40" y="224" font-family="'Arial', sans-serif" font-size="11" fill="#2C2A27">Buffet Meal — Full Service</text>
+  <text x="260" y="224" font-family="'Arial', sans-serif" font-size="11" fill="#666660" text-anchor="end">×1</text>
+  <text x="360" y="224" font-family="'Courier New', monospace" font-size="11" fill="#2C2A27" text-anchor="end">₹ 1,100</text>
 
-  <text x="40" y="238" font-family="'Arial', sans-serif" font-size="11" fill="#2C2A27">Pork Belly Tacos (3 pcs)</text>
-  <text x="260" y="238" font-family="'Arial', sans-serif" font-size="11" fill="#666660" text-anchor="end">×1</text>
-  <text x="360" y="238" font-family="'Courier New', monospace" font-size="11" fill="#2C2A27" text-anchor="end">₹   620</text>
+  <text x="40" y="244" font-family="'Arial', sans-serif" font-size="11" fill="#2C2A27">Alcoholic Beverages</text>
+  <text x="260" y="244" font-family="'Arial', sans-serif" font-size="11" fill="#666660" text-anchor="end">×2</text>
+  <text x="360" y="244" font-family="'Courier New', monospace" font-size="11" fill="#2C2A27" text-anchor="end">₹   400</text>
 
-  <text x="40" y="255" font-family="'Arial', sans-serif" font-size="11" fill="#2C2A27">Truffle Risotto</text>
-  <text x="260" y="255" font-family="'Arial', sans-serif" font-size="11" fill="#666660" text-anchor="end">×1</text>
-  <text x="360" y="255" font-family="'Courier New', monospace" font-size="11" fill="#2C2A27" text-anchor="end">₹   780</text>
+  <text x="40" y="264" font-family="'Arial', sans-serif" font-size="11" fill="#2C2A27">Premium Coffee</text>
+  <text x="260" y="264" font-family="'Arial', sans-serif" font-size="11" fill="#666660" text-anchor="end">×2</text>
+  <text x="360" y="264" font-family="'Courier New', monospace" font-size="11" fill="#2C2A27" text-anchor="end">₹   180</text>
 
-  <text x="40" y="272" font-family="'Arial', sans-serif" font-size="11" fill="#2C2A27">Grilled Barramundi</text>
-  <text x="260" y="272" font-family="'Arial', sans-serif" font-size="11" fill="#666660" text-anchor="end">×1</text>
-  <text x="360" y="272" font-family="'Courier New', monospace" font-size="11" fill="#2C2A27" text-anchor="end">₹   920</text>
+  <text x="40" y="284" font-family="'Arial', sans-serif" font-size="11" fill="#2C2A27">Packaged Snacks</text>
+  <text x="260" y="284" font-family="'Arial', sans-serif" font-size="11" fill="#666660" text-anchor="end">×1</text>
+  <text x="360" y="284" font-family="'Courier New', monospace" font-size="11" fill="#2C2A27" text-anchor="end">₹   120</text>
 
-  <text x="40" y="289" font-family="'Arial', sans-serif" font-size="11" fill="#2C2A27">Sourdough Bread Basket</text>
-  <text x="260" y="289" font-family="'Arial', sans-serif" font-size="11" fill="#666660" text-anchor="end">×1</text>
-  <text x="360" y="289" font-family="'Courier New', monospace" font-size="11" fill="#2C2A27" text-anchor="end">₹   220</text>
+  <line x1="30" y1="296" x2="370" y2="296" stroke="#DDD8C8" stroke-width="0.5" stroke-dasharray="4,3"/>
 
-  <text x="40" y="306" font-family="'Arial', sans-serif" font-size="11" fill="#2C2A27">Lemon Tart</text>
-  <text x="260" y="306" font-family="'Arial', sans-serif" font-size="11" fill="#666660" text-anchor="end">×2</text>
-  <text x="360" y="306" font-family="'Courier New', monospace" font-size="11" fill="#2C2A27" text-anchor="end">₹   500</text>
+  <text x="260" y="312" font-family="'Arial', sans-serif" font-size="10" fill="#666660">Subtotal</text>
+  <text x="360" y="312" font-family="'Courier New', monospace" font-size="10" fill="#666660" text-anchor="end">₹ 1,800</text>
 
-  <text x="40" y="323" font-family="'Arial', sans-serif" font-size="11" fill="#2C2A27">Cold Brew Coffee</text>
-  <text x="260" y="323" font-family="'Arial', sans-serif" font-size="11" fill="#666660" text-anchor="end">×2</text>
-  <text x="360" y="323" font-family="'Courier New', monospace" font-size="11" fill="#2C2A27" text-anchor="end">₹   380</text>
+  <text x="260" y="328" font-family="'Arial', sans-serif" font-size="10" fill="#666660">GST (incl.)</text>
+  <text x="360" y="328" font-family="'Courier New', monospace" font-size="10" fill="#666660" text-anchor="end">₹   270</text>
 
-  <text x="40" y="340" font-family="'Arial', sans-serif" font-size="11" fill="#2C2A27">Sparkling Water</text>
-  <text x="260" y="340" font-family="'Arial', sans-serif" font-size="11" fill="#666660" text-anchor="end">×2</text>
-  <text x="360" y="340" font-family="'Courier New', monospace" font-size="11" fill="#2C2A27" text-anchor="end">₹   200</text>
+  <line x1="240" y1="338" x2="370" y2="338" stroke="#1E3A5F" stroke-width="1"/>
 
-  <line x1="30" y1="351" x2="370" y2="351" stroke="#DDD8C8" stroke-width="0.5" stroke-dasharray="4,3"/>
+  <rect x="240" y="343" width="130" height="26" rx="2" fill="#1E3A5F" opacity="0.1"/>
+  <text x="252" y="361" font-family="'Arial', sans-serif" font-size="11" font-weight="700" fill="#1E3A5F">TOTAL PAID</text>
+  <text x="358" y="361" font-family="'Courier New', monospace" font-size="12" font-weight="700" fill="#1E3A5F" text-anchor="end">₹ 1,800</text>
 
-  <text x="260" y="366" font-family="'Arial', sans-serif" font-size="10" fill="#666660">Subtotal</text>
-  <text x="360" y="366" font-family="'Courier New', monospace" font-size="10" fill="#666660" text-anchor="end">₹ 4,110</text>
+  <!-- Currency -->
+  <text x="40" y="360" font-family="'Arial', sans-serif" font-size="9" fill="#888880" letter-spacing="1">CURRENCY</text>
+  <text x="40" y="374" font-family="'Arial', sans-serif" font-size="10" fill="#2C2A27">INR — Indian Rupee</text>
 
-  <text x="260" y="382" font-family="'Arial', sans-serif" font-size="10" fill="#666660">CGST (2.5%)</text>
-  <text x="360" y="382" font-family="'Courier New', monospace" font-size="10" fill="#666660" text-anchor="end">₹   103</text>
+  <text x="40" y="394" font-family="'Arial', sans-serif" font-size="9" fill="#888880" letter-spacing="1">PAYMENT METHOD</text>
+  <text x="40" y="408" font-family="'Arial', sans-serif" font-size="10" fill="#2C2A27">Corporate Credit Card (Charged to Company)</text>
 
-  <text x="260" y="397" font-family="'Arial', sans-serif" font-size="10" fill="#666660">SGST (2.5%)</text>
-  <text x="360" y="397" font-family="'Courier New', monospace" font-size="10" fill="#666660" text-anchor="end">₹   103</text>
+  <!-- Overridden note -->
+  <rect x="30" y="420" width="340" height="22" rx="2" fill="#FEF9C3" opacity="0.8"/>
+  <text x="200" y="434" font-family="'Arial', sans-serif" font-size="9" fill="#92400E" text-anchor="middle">NOTE: Amount field overridden by reviewer — see audit trail</text>
 
-  <text x="260" y="413" font-family="'Arial', sans-serif" font-size="10" fill="#666660">Service Charge (10%)</text>
-  <text x="360" y="413" font-family="'Courier New', monospace" font-size="10" fill="#666660" text-anchor="end">₹   411</text>
+  <line x1="30" y1="450" x2="370" y2="450" stroke="#DDD8C8" stroke-width="0.5" stroke-dasharray="4,3"/>
 
-  <line x1="240" y1="421" x2="370" y2="421" stroke="#065F46" stroke-width="1"/>
+  <text x="200" y="468" font-family="'Arial', sans-serif" font-size="8" fill="#AAAAAA" text-anchor="middle">Airport Lounge Services, CSIA Terminal 2, Mumbai 400 099</text>
+  <text x="200" y="482" font-family="'Arial', sans-serif" font-size="8" fill="#AAAAAA" text-anchor="middle">GSTIN: 27AABCL8833K1ZP  |  FSSAI: 10020051000592</text>
 
-  <rect x="240" y="426" width="130" height="26" rx="2" fill="#065F46" opacity="0.1"/>
-  <text x="252" y="444" font-family="'Arial', sans-serif" font-size="11" font-weight="700" fill="#065F46">TOTAL PAID</text>
-  <text x="358" y="444" font-family="'Courier New', monospace" font-size="12" font-weight="700" fill="#065F46" text-anchor="end">₹ 4,727</text>
-
-  <text x="40" y="444" font-family="'Arial', sans-serif" font-size="9" fill="#888880" letter-spacing="1">PAYMENT METHOD</text>
-  <text x="40" y="458" font-family="'Arial', sans-serif" font-size="10" fill="#2C2A27">HDFC Corporate Card •••• 1109</text>
-
-  <line x1="30" y1="467" x2="370" y2="467" stroke="#DDD8C8" stroke-width="0.5" stroke-dasharray="4,3"/>
-
-  <text x="200" y="484" font-family="'Arial', sans-serif" font-size="8" fill="#AAAAAA" text-anchor="middle">Smoke House Deli, 1 Church Street, Bengaluru 560 001</text>
-  <text x="200" y="498" font-family="'Arial', sans-serif" font-size="8" fill="#AAAAAA" text-anchor="middle">FSSAI: 10220022002791  |  GSTIN: 29AABCR5120N1ZT</text>
-
-  <path d="M 20 530 Q 30 524 40 530 Q 50 536 60 530 Q 70 524 80 530 Q 90 536 100 530 Q 110 524 120 530 Q 130 536 140 530 Q 150 524 160 530 Q 170 536 180 530 Q 190 524 200 530 Q 210 536 220 530 Q 230 524 240 530 Q 250 536 260 530 Q 270 524 280 530 Q 290 536 300 530 Q 310 524 320 530 Q 330 536 340 530 Q 350 524 360 530 Q 370 536 380 530" fill="none" stroke="#DDD8C8" stroke-width="1"/>
-  <text x="200" y="548" font-family="'Arial', sans-serif" font-size="8" fill="#AAAAAA" text-anchor="middle">Thank you for dining with us. Please visit again!</text>
+  <path d="M 20 498 Q 30 492 40 498 Q 50 504 60 498 Q 70 492 80 498 Q 90 504 100 498 Q 110 492 120 498 Q 130 504 140 498 Q 150 492 160 498 Q 170 504 180 498 Q 190 492 200 498 Q 210 504 220 498 Q 230 492 240 498 Q 250 504 260 498 Q 270 492 280 498 Q 290 504 300 498 Q 310 492 320 498 Q 330 504 340 498 Q 350 492 360 498 Q 370 504 380 498" fill="none" stroke="#DDD8C8" stroke-width="1"/>
+  <text x="200" y="518" font-family="'Arial', sans-serif" font-size="8" fill="#AAAAAA" text-anchor="middle">Thank you for visiting our lounge. Have a pleasant journey!</text>
+  <text x="200" y="532" font-family="'Arial', sans-serif" font-size="8" fill="#AAAAAA" text-anchor="middle">Voucher Ref: LNG-2025-4821</text>
 </svg>
