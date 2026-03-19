@@ -1,0 +1,337 @@
+/* ============================================================
+   MERIDIAN DESIGN SYSTEM — globals.css
+   Tailwind CSS v4  |  @theme token definitions
+   ============================================================ */
+
+/* ── Google Fonts ─────────────────────────────────────────── */
+@import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@600;700;800&family=Inter:wght@400;500;600&family=Geist+Mono:wght@500;600;700&display=swap");
+
+/* ── Tailwind v4 core ─────────────────────────────────────── */
+@import "tailwindcss";
+
+/* ── Dark mode: class-based strategy (Tailwind v4) ────────── */
+@custom-variant dark (&:where(.dark, .dark *));
+
+/* ============================================================
+   DESIGN TOKENS  (@theme)
+   ============================================================ */
+@theme {
+
+  /* ── Brand palette ─────────────────────────────────────── */
+  --color-brand-navy:           #0F1B2D;
+  --color-brand-deep:           #1A2744;
+  --color-brand-primary:        #2563EB;
+  --color-brand-primary-hover:  #1D4ED8;
+  --color-brand-primary-light:  #DBEAFE;
+  --color-brand-primary-surface:#EFF6FF;
+
+  /* ── Semantic status colors ─────────────────────────────── */
+  --color-success:              #10B981;
+  --color-warning:              #F59E0B;
+  --color-danger:               #EF4444;
+  --color-info:                 #3B82F6;
+  --color-purple:               #8B5CF6;
+  --color-teal:                 #14B8A6;
+  --color-rose:                 #F43F5E;
+
+  /* ── Semantic surface colors ────────────────────────────── */
+  --color-success-surface:      #D1FAE5;
+  --color-warning-surface:      #FEF3C7;
+  --color-danger-surface:       #FEE2E2;
+  --color-info-surface:         #DBEAFE;
+  --color-purple-surface:       #EDE9FE;
+  --color-teal-surface:         #CCFBF1;
+  --color-rose-surface:         #FFE4E6;
+
+  /* ── Semantic text colors ───────────────────────────────── */
+  --color-success-text:         #065F46;
+  --color-warning-text:         #92400E;
+  --color-danger-text:          #991B1B;
+  --color-info-text:            #1E40AF;
+  --color-purple-text:          #5B21B6;
+  --color-teal-text:            #115E59;
+  --color-rose-text:            #9F1239;
+
+  /* ── Slate scale ────────────────────────────────────────── */
+  --color-slate-50:             #F8FAFC;
+  --color-slate-100:            #F1F5F9;
+  --color-slate-200:            #E2E8F0;
+  --color-slate-300:            #CBD5E1;
+  --color-slate-400:            #94A3B8;
+  --color-slate-500:            #64748B;
+  --color-slate-600:            #475569;
+  --color-slate-700:            #334155;
+  --color-slate-800:            #1E293B;
+  --color-slate-900:            #0F172A;
+  --color-slate-950:            #020617;
+
+  /* ── Neutral ────────────────────────────────────────────── */
+  --color-white:                #FFFFFF;
+
+  /* ── Typography ─────────────────────────────────────────── */
+  --font-display:  "Plus Jakarta Sans", "Inter", system-ui, sans-serif;
+  --font-body:     "Inter", "SF Pro Display", system-ui, sans-serif;
+  --font-mono:     "Geist Mono", "JetBrains Mono", "SF Mono", monospace;
+  --font-accent:   "Satoshi", "Plus Jakarta Sans", system-ui, sans-serif;
+
+  /* ── Border radius ──────────────────────────────────────── */
+  --radius-sm:  4px;
+  --radius-md:  8px;
+  --radius-lg:  12px;
+  --radius-xl:  16px;
+
+  /* ── Box shadows ────────────────────────────────────────── */
+  --shadow-xs:     0 1px 2px 0 rgb(0 0 0 / 0.05);
+  --shadow-sm:     0 1px 3px 0 rgb(0 0 0 / 0.10), 0 1px 2px -1px rgb(0 0 0 / 0.10);
+  --shadow-md:     0 4px 6px -1px rgb(0 0 0 / 0.10), 0 2px 4px -2px rgb(0 0 0 / 0.10);
+  --shadow-lg:     0 10px 15px -3px rgb(0 0 0 / 0.10), 0 4px 6px -4px rgb(0 0 0 / 0.10);
+  --shadow-xl:     0 20px 25px -5px rgb(0 0 0 / 0.10), 0 8px 10px -6px rgb(0 0 0 / 0.10);
+  --shadow-inner:  inset 0 2px 4px 0 rgb(0 0 0 / 0.06);
+  --shadow-focus:  0 0 0 3px rgb(37 99 235 / 0.40);
+
+  /* ── Keyframe animations ────────────────────────────────── */
+
+  /* shimmer — skeleton loading effect */
+  --animate-shimmer: shimmer 1.8s linear infinite;
+  @keyframes shimmer {
+    0%   { background-position: -200% 0; }
+    100% { background-position:  200% 0; }
+  }
+
+  /* fadeIn */
+  --animate-fade-in: fadeIn 0.2s ease-out both;
+  @keyframes fadeIn {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+  }
+
+  /* slideInRight */
+  --animate-slide-in-right: slideInRight 0.25s ease-out both;
+  @keyframes slideInRight {
+    from { opacity: 0; transform: translateX(12px); }
+    to   { opacity: 1; transform: translateX(0);    }
+  }
+
+  /* drawerSlideIn — used by DetailDrawer panel */
+  @keyframes drawerSlideIn {
+    from { transform: translateX(100%); opacity: 0.6; }
+    to   { transform: translateX(0);    opacity: 1;   }
+  }
+
+  /* scaleIn */
+  --animate-scale-in: scaleIn 0.2s ease-out both;
+  @keyframes scaleIn {
+    from { opacity: 0; transform: scale(0.95); }
+    to   { opacity: 1; transform: scale(1);    }
+  }
+
+  /* pulse-border */
+  --animate-pulse-border: pulse-border 2s ease-in-out infinite;
+  @keyframes pulse-border {
+    0%, 100% { border-color: rgb(37 99 235 / 1);   box-shadow: 0 0 0 0   rgb(37 99 235 / 0.40); }
+    50%       { border-color: rgb(37 99 235 / 0.60); box-shadow: 0 0 0 4px rgb(37 99 235 / 0);    }
+  }
+}
+
+/* ============================================================
+   DARK MODE OVERRIDES  (.dark)
+   ============================================================ */
+.dark {
+  /* Invert brand surfaces */
+  --color-brand-navy:           #0F1B2D;
+  --color-brand-deep:           #1A2744;
+  --color-brand-primary:        #3B82F6;
+  --color-brand-primary-hover:  #60A5FA;
+  --color-brand-primary-light:  #1E3A5F;
+  --color-brand-primary-surface:#0F2040;
+
+  /* Status colors — slightly lighter for dark backgrounds */
+  --color-success:              #34D399;
+  --color-warning:              #FBBF24;
+  --color-danger:               #F87171;
+  --color-info:                 #60A5FA;
+  --color-purple:               #A78BFA;
+  --color-teal:                 #2DD4BF;
+  --color-rose:                 #FB7185;
+
+  /* Dark surface tokens */
+  --color-success-surface:      #064E3B;
+  --color-warning-surface:      #451A03;
+  --color-danger-surface:       #450A0A;
+  --color-info-surface:         #1E3A5F;
+  --color-purple-surface:       #2E1065;
+  --color-teal-surface:         #042F2E;
+  --color-rose-surface:         #4C0519;
+
+  /* Dark text tokens */
+  --color-success-text:         #6EE7B7;
+  --color-warning-text:         #FCD34D;
+  --color-danger-text:          #FCA5A5;
+  --color-info-text:            #93C5FD;
+  --color-purple-text:          #C4B5FD;
+  --color-teal-text:            #5EEAD4;
+  --color-rose-text:            #FDA4AF;
+
+  /* Dark shadow — deeper to remain visible */
+  --shadow-xs:     0 1px 2px 0 rgb(0 0 0 / 0.30);
+  --shadow-sm:     0 1px 3px 0 rgb(0 0 0 / 0.40), 0 1px 2px -1px rgb(0 0 0 / 0.40);
+  --shadow-md:     0 4px 6px -1px rgb(0 0 0 / 0.40), 0 2px 4px -2px rgb(0 0 0 / 0.40);
+  --shadow-lg:     0 10px 15px -3px rgb(0 0 0 / 0.50), 0 4px 6px -4px rgb(0 0 0 / 0.40);
+  --shadow-xl:     0 20px 25px -5px rgb(0 0 0 / 0.60), 0 8px 10px -6px rgb(0 0 0 / 0.50);
+  --shadow-focus:  0 0 0 3px rgb(59 130 246 / 0.50);
+}
+
+/* ============================================================
+   BASE STYLES
+   ============================================================ */
+@layer base {
+  *,
+  *::before,
+  *::after {
+    box-sizing: border-box;
+  }
+
+  html {
+    font-size: 16px;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+  }
+
+  body {
+    font-family: var(--font-body);
+    background-color: var(--color-slate-50);
+    color: var(--color-slate-900);
+    line-height: 1.6;
+    /* smooth dark/light transitions */
+    transition: background-color 0.3s ease, color 0.2s ease;
+  }
+
+  /* Dark mode body — .dark is applied to <html> by next-themes */
+  :root.dark body,
+  .dark body {
+    background-color: var(--color-slate-950);
+    color: var(--color-slate-100);
+  }
+
+  /* Focus ring — use shadow-focus token */
+  :focus-visible {
+    outline: none;
+    box-shadow: var(--shadow-focus);
+  }
+
+  /* Headings use display font */
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-display);
+    font-weight: 700;
+    line-height: 1.25;
+    letter-spacing: -0.01em;
+  }
+
+  /* Code / pre use mono font */
+  code, kbd, samp, pre {
+    font-family: var(--font-mono);
+    font-size: 0.875em;
+  }
+
+  /* Remove default list decoration inside nav/menu contexts */
+  [role="list"] {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  /* Smooth transitions for interactive elements */
+  a, button, [role="button"] {
+    transition: color 0.15s ease, background-color 0.15s ease,
+                border-color 0.15s ease, box-shadow 0.15s ease,
+                opacity 0.15s ease;
+  }
+
+  img, video {
+    max-width: 100%;
+    height: auto;
+  }
+}
+
+/* ============================================================
+   CUSTOM SCROLLBAR
+   ============================================================ */
+@layer base {
+  /* Webkit scrollbar */
+  ::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+  }
+
+  ::-webkit-scrollbar-track {
+    background: transparent;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background-color: var(--color-slate-300);
+    border-radius: 9999px;
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    background-color: var(--color-slate-400);
+  }
+
+  .dark ::-webkit-scrollbar-thumb {
+    background-color: var(--color-slate-600);
+  }
+
+  .dark ::-webkit-scrollbar-thumb:hover {
+    background-color: var(--color-slate-500);
+  }
+
+  /* Firefox */
+  * {
+    scrollbar-width: thin;
+    scrollbar-color: var(--color-slate-300) transparent;
+  }
+
+  .dark * {
+    scrollbar-color: var(--color-slate-600) transparent;
+  }
+}
+
+/* ============================================================
+   UTILITY HELPERS
+   ============================================================ */
+@layer utilities {
+  /* Shimmer skeleton background */
+  .shimmer-bg {
+    background: linear-gradient(
+      90deg,
+      var(--color-slate-200) 25%,
+      var(--color-slate-100) 50%,
+      var(--color-slate-200) 75%
+    );
+    background-size: 200% 100%;
+    animation: var(--animate-shimmer);
+  }
+
+  .dark .shimmer-bg {
+    background: linear-gradient(
+      90deg,
+      var(--color-slate-700) 25%,
+      var(--color-slate-800) 50%,
+      var(--color-slate-700) 75%
+    );
+    background-size: 200% 100%;
+  }
+
+  /* Glass morphism surface */
+  .glass {
+    backdrop-filter: blur(12px) saturate(1.4);
+    -webkit-backdrop-filter: blur(12px) saturate(1.4);
+    background-color: rgb(255 255 255 / 0.75);
+    border: 1px solid rgb(255 255 255 / 0.30);
+  }
+
+  .dark .glass {
+    background-color: rgb(15 27 45 / 0.75);
+    border-color: rgb(255 255 255 / 0.08);
+  }
+}
