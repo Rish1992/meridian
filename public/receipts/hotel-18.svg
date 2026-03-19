@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="560" viewBox="0 0 400 560">
+  <defs><filter id="paper-shadow"><feDropShadow dx="0" dy="2" stdDeviation="4" flood-color="#00000022"/></filter></defs>
+  <rect x="20" y="10" width="360" height="540" rx="3" ry="3" fill="#F9F7F4" filter="url(#paper-shadow)"/>
+  <rect x="20" y="10" width="360" height="540" rx="3" ry="3" fill="#EDE8E0" opacity="0.18"/>
+  <rect x="20" y="10" width="360" height="72" rx="3" ry="3" fill="#1B2A4A"/>
+  <rect x="20" y="50" width="360" height="32" fill="#1B2A4A"/>
+  <rect x="38" y="22" width="28" height="38" rx="1" fill="none" stroke="#CCDDEE" stroke-width="1.5"/>
+  <rect x="43" y="28" width="5" height="5" fill="#CCDDEE"/><rect x="52" y="28" width="5" height="5" fill="#CCDDEE"/>
+  <rect x="43" y="38" width="5" height="5" fill="#CCDDEE"/><rect x="52" y="38" width="5" height="5" fill="#CCDDEE"/>
+  <rect x="46" y="48" width="8" height="12" fill="#CCDDEE"/>
+  <text x="78" y="34" font-family="'Arial', sans-serif" font-size="13" font-weight="700" fill="#FFFFFF" letter-spacing="2">HOTEL RECEIPT</text>
+  <text x="78" y="52" font-family="'Arial', sans-serif" font-size="10" fill="#CCDDEE" letter-spacing="1">ACCOMMODATION — MARRIOTT HOTELS</text>
+  <text x="200" y="76" font-family="'Georgia', serif" font-size="12" font-weight="700" fill="#FFFFFF" text-anchor="middle" letter-spacing="1">Dallas/Fort Worth Airport Marriott</text>
+  <line x1="30" y1="98" x2="370" y2="98" stroke="#D1C9BC" stroke-width="0.5" stroke-dasharray="4,3"/>
+  <text x="40" y="118" font-family="'Arial', sans-serif" font-size="9" fill="#888880" letter-spacing="1">RECEIPT NUMBER</text>
+  <text x="40" y="133" font-family="'Courier New', monospace" font-size="11" font-weight="700" fill="#2C2A27">MRD-MRD-DFW-20260317-5512</text>
+  <text x="360" y="133" font-family="'Arial', sans-serif" font-size="9" fill="#888880" text-anchor="end">INVOICE</text>
+  <line x1="30" y1="143" x2="370" y2="143" stroke="#D1C9BC" stroke-width="0.5"/>
+  <text x="40" y="160" font-family="'Arial', sans-serif" font-size="9" fill="#888880" letter-spacing="1">GUEST NAME</text>
+  <text x="40" y="174" font-family="'Arial', sans-serif" font-size="11" fill="#2C2A27">Corporate Guest</text>
+  <text x="240" y="160" font-family="'Arial', sans-serif" font-size="9" fill="#888880" letter-spacing="1">ROOM TYPE</text>
+  <text x="240" y="174" font-family="'Arial', sans-serif" font-size="11" fill="#2C2A27">Standard Room</text>
+  <text x="40" y="193" font-family="'Arial', sans-serif" font-size="9" fill="#888880" letter-spacing="1">CHECK-IN</text>
+  <text x="40" y="207" font-family="'Arial', sans-serif" font-size="11" fill="#2C2A27">17 Mar 2026</text>
+  <text x="160" y="193" font-family="'Arial', sans-serif" font-size="9" fill="#888880" letter-spacing="1">CHECK-OUT</text>
+  <text x="160" y="207" font-family="'Arial', sans-serif" font-size="11" fill="#2C2A27">18 Mar 2026</text>
+  <text x="300" y="193" font-family="'Arial', sans-serif" font-size="9" fill="#888880" letter-spacing="1">NIGHTS</text>
+  <text x="300" y="207" font-family="'Arial', sans-serif" font-size="11" fill="#2C2A27">1</text>
+  <line x1="30" y1="218" x2="370" y2="218" stroke="#D1C9BC" stroke-width="0.5"/>
+  <text x="40" y="234" font-family="'Arial', sans-serif" font-size="9" font-weight="700" fill="#888880" letter-spacing="1">DESCRIPTION</text>
+  <text x="360" y="234" font-family="'Arial', sans-serif" font-size="9" font-weight="700" fill="#888880" text-anchor="end" letter-spacing="1">AMOUNT (USD)</text>
+  <line x1="30" y1="240" x2="370" y2="240" stroke="#D1C9BC" stroke-width="0.5"/>
+  <text x="40" y="258" font-family="'Arial', sans-serif" font-size="11" fill="#2C2A27">Room Charge (1 nt)</text>
+  <text x="360" y="258" font-family="'Courier New', monospace" font-size="11" fill="#2C2A27" text-anchor="end">$ 189.70</text>
+  <text x="40" y="276" font-family="'Arial', sans-serif" font-size="11" fill="#2C2A27">Tax</text>
+  <text x="360" y="276" font-family="'Courier New', monospace" font-size="11" fill="#2C2A27" text-anchor="end">$ 35.30</text>
+  <line x1="30" y1="290" x2="370" y2="290" stroke="#D1C9BC" stroke-width="0.5" stroke-dasharray="4,3"/>
+  <line x1="240" y1="310" x2="370" y2="310" stroke="#1B2A4A" stroke-width="1"/>
+  <rect x="240" y="315" width="130" height="26" rx="2" fill="#1B2A4A" opacity="0.08"/>
+  <text x="252" y="333" font-family="'Arial', sans-serif" font-size="11" font-weight="700" fill="#1B2A4A">TOTAL PAID</text>
+  <text x="358" y="333" font-family="'Courier New', monospace" font-size="12" font-weight="700" fill="#1B2A4A" text-anchor="end">$225.00</text>
+  <text x="40" y="332" font-family="'Arial', sans-serif" font-size="9" fill="#888880" letter-spacing="1">CURRENCY</text>
+  <text x="40" y="346" font-family="'Arial', sans-serif" font-size="10" fill="#2C2A27">USD</text>
+  <text x="40" y="368" font-family="'Arial', sans-serif" font-size="9" fill="#888880" letter-spacing="1">PAYMENT METHOD</text>
+  <text x="40" y="382" font-family="'Arial', sans-serif" font-size="10" fill="#2C2A27">Corporate Card &#8226;&#8226;&#8226;&#8226; 4291</text>
+  <line x1="30" y1="396" x2="370" y2="396" stroke="#D1C9BC" stroke-width="0.5" stroke-dasharray="4,3"/>
+  <text x="200" y="450" font-family="'Arial', sans-serif" font-size="8" fill="#AAAAAA" text-anchor="middle">Dallas/Fort Worth Airport Marriott</text>
+  <text x="200" y="463" font-family="'Arial', sans-serif" font-size="8" fill="#AAAAAA" text-anchor="middle">This is a computer-generated receipt and does not require a signature.</text>
+  <rect x="156" y="476" width="4" height="18" fill="#CCCCCC"/>
+  <rect x="162" y="476" width="2" height="18" fill="#CCCCCC"/>
+  <rect x="166" y="476" width="6" height="18" fill="#CCCCCC"/>
+  <rect x="174" y="476" width="3" height="18" fill="#CCCCCC"/>
+</svg>

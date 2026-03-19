@@ -124,7 +124,115 @@ const CATEGORY_BG: Record<DocumentCategory, string> = {
 // Receipt image mapping
 // ─────────────────────────────────────────────────────────────────────────────
 
-function getReceiptImagePath(category: DocumentCategory, docIndex: number): string | null {
+// Per-document receipt mapping — each document ID maps to a matching receipt SVG
+// with correct vendor name, dates, and amount from that document's extractedFields.
+const DOC_RECEIPT_MAP: Record<string, string> = {
+  // CLM-001
+  'DOC-001': '/receipts/hotel-1.svg',          // Marriott Heathrow, £189.00
+  'DOC-002': '/receipts/cab-1.svg',             // Uber LHR, £12.40
+  'DOC-003': '/receipts/food-1.svg',            // Heathrow Costa Coffee, £14.50
+  // CLM-002
+  'DOC-004': '/receipts/hotel-2.svg',           // JW Marriott Mumbai, ₹14,500
+  'DOC-005': '/receipts/food-19.svg',           // BOM T2 Food Zone / Airport Lounge, ₹1,800
+  // CLM-003
+  'DOC-006': '/receipts/hotel-3.svg',           // The Leela Chennai, ₹9,200
+  'DOC-007': '/receipts/cab-2.svg',             // Ola Cabs Chennai, ₹650
+  'DOC-008': '/receipts/food-3.svg',            // Saravana Bhavan Airport, ₹420
+  // CLM-004
+  'DOC-009': '/receipts/alternate-carrier-1.svg', // Air India AI-441 DEL→BOM, ₹6,450
+  'DOC-010': '/receipts/food-4.svg',            // McDonald's DEL T3, ₹540
+  // CLM-005
+  'DOC-011': '/receipts/hotel-4.svg',           // Novotel Hyderabad Airport, ₹7,800
+  'DOC-012': '/receipts/cab-3.svg',             // Rapido Auto, ₹280
+  'DOC-013': '/receipts/food-5.svg',            // Novotel In-Room Dining, ₹1,450
+  'DOC-014': '/receipts/food-6.svg',            // HYD Airport Food Court, ₹320
+  // CLM-006
+  'DOC-015': '/receipts/hotel-5.svg',           // Radisson Blu Kolkata, ₹8,500
+  'DOC-016': '/receipts/alternate-carrier-2.svg', // IndiGo 6E-391 CCU→DEL, ₹4,200
+  // CLM-007
+  'DOC-017': '/receipts/hotel-6.svg',           // Rove Dubai Creek, AED 495
+  'DOC-018': '/receipts/cab-4.svg',             // Careem DXB, AED 38
+  'DOC-019': '/receipts/food-7.svg',            // Wafi Gourmet DXB, AED 120
+  // CLM-008
+  'DOC-020': '/receipts/hotel-7.svg',           // Clayton Hotel Heathrow, £210
+  'DOC-021': '/receipts/food-8.svg',            // Upper Crust LHR T5, £22.80
+  // CLM-009
+  'DOC-022': '/receipts/alternate-carrier-3.svg', // Emirates EK-314 LHR→DEL, £685
+  'DOC-023': '/receipts/hotel-8.svg',           // Sofitel London Gatwick, £175
+  'DOC-024': '/receipts/cab-5.svg',             // National Express LHR→LGW, £32
+  // CLM-010
+  'DOC-025': '/receipts/hotel-9.svg',           // Oryx Airport Hotel Doha, QAR 680
+  'DOC-026': '/receipts/food-9.svg',            // Al Mourjan Lounge DOH, QAR 95
+  // CLM-011
+  'DOC-027': '/receipts/hotel-10.svg',          // Grand Hyatt Doha, QAR 1,250
+  'DOC-028': '/receipts/cab-6.svg',             // Karwa Taxi DOH, QAR 55
+  'DOC-029': '/receipts/food-10.svg',           // The Pearl Restaurant DOH, QAR 210
+  // CLM-012
+  'DOC-030': '/receipts/hotel-11.svg',          // Park Hyatt Singapore, SGD 320
+  'DOC-031': '/receipts/alternate-carrier-4.svg', // Japan Airlines JL-712 SIN→NRT, SGD 510
+  // CLM-013
+  'DOC-032': '/receipts/hotel-12.svg',          // Swissotel The Stamford, SGD 450
+  'DOC-033': '/receipts/cab-7.svg',             // ComfortDelGro Taxi SIN, SGD 28
+  'DOC-034': '/receipts/food-11.svg',           // Changi Jewel Food Hall, SGD 35
+  'DOC-035': '/receipts/food-12.svg',           // Swissotel In-Room Dining, SGD 68
+  // CLM-014
+  'DOC-036': '/receipts/hotel-13.svg',          // Hilton Frankfurt Airport, €195
+  'DOC-037': '/receipts/food-13.svg',           // Hilton Executive Lounge, €42.50
+  // CLM-015
+  'DOC-038': '/receipts/hotel-14.svg',          // Lindner Airport Hotel Frankfurt, €178
+  'DOC-039': '/receipts/alternate-carrier-5.svg', // Lufthansa LH-402 FRA→JFK, €890
+  'DOC-040': '/receipts/cab-8.svg',             // Frankfurt Taxi Services, €22
+  // CLM-016
+  'DOC-041': '/receipts/hotel-15.svg',          // ibis Munich Airport, €135
+  'DOC-042': '/receipts/food-14.svg',           // MUC Airport Bistro, €28.40
+  // CLM-017
+  'DOC-043': '/receipts/hotel-16.svg',          // Sheraton JFK Airport Hotel, $289
+  'DOC-044': '/receipts/cab-9.svg',             // Lyft JFK, $22.50
+  'DOC-045': '/receipts/food-15.svg',           // JFK Shake Shack T4, $18.75
+  // CLM-018
+  'DOC-046': '/receipts/hotel-17.svg',          // Hyatt Place Chicago O'Hare, $199
+  'DOC-047': '/receipts/alternate-carrier-6.svg', // United Airlines UA-779 ORD→MIA, $385
+  // CLM-019
+  'DOC-048': '/receipts/hotel-18.svg',          // DFW Airport Marriott, $225
+  'DOC-049': '/receipts/food-16.svg',           // DFW Pappadeaux Seafood, $67.20
+  'DOC-050': '/receipts/cab-10.svg',            // SuperShuttle DFW, $18
+  // CLM-020
+  'DOC-051': '/receipts/hotel-19.svg',          // Sheraton Los Angeles, $315
+  'DOC-052': '/receipts/food-17.svg',           // LAX Tom Bradley Food Court, $24.90
+  // CLM-021
+  'DOC-053': '/receipts/hotel-20.svg',          // Muscat InterContinental, OMR 185
+  'DOC-054': '/receipts/cab-11.svg',            // Mwasalat Taxi MCT, OMR 12
+  'DOC-055': '/receipts/food-18.svg',           // Al Angham Restaurant Muscat, OMR 28
+  // CLM-022
+  'DOC-056': '/receipts/hotel-21.svg',          // Osaka Itami Airport Hotel, ¥28,500
+  'DOC-057': '/receipts/alternate-carrier-7.svg', // ANA NH-12 ITM→NRT, ¥18,900
+  // CLM-023
+  'DOC-058': '/receipts/hotel-22.svg',          // Aloft Mumbai International Airport, ₹7,200
+  'DOC-059': '/receipts/food-19.svg',           // BOM T2 Food Zone, ₹850
+  // CLM-024
+  'DOC-060': '/receipts/hotel-23.svg',          // Pullman Dubai Creek, AED 620
+  'DOC-061': '/receipts/cab-12.svg',            // Dubai Taxi Corporation, AED 45
+  'DOC-062': '/receipts/food-20.svg',           // Pullman All Day Dining, AED 165
+  // CLM-025
+  'DOC-063': '/receipts/hotel-24.svg',          // Premier Inn Heathrow T4, £145
+  'DOC-064': '/receipts/cab-13.svg',            // Heathrow Express, £37
+  // CLM-026
+  'DOC-065': '/receipts/hotel-25.svg',          // Movenpick Hotel & Residences Doha, QAR 920
+  'DOC-066': '/receipts/alternate-carrier-8.svg', // British Airways BA-142 DOH→LHR, QAR 4,200
+  'DOC-067': '/receipts/food-21.svg',           // Movenpick Café Doha, QAR 185
+  // CLM-027
+  'DOC-068': '/receipts/hotel-26.svg',          // ibis Singapore Airport, SGD 175
+  'DOC-069': '/receipts/food-22.svg',           // Singapore Changi T1 Food Court, SGD 18
+  // CLM-028
+  'DOC-070': '/receipts/hotel-27.svg',          // Frankfurt Marriott Hotel, €215
+};
+
+function getReceiptImagePath(category: DocumentCategory, docIndex: number, docId?: string): string | null {
+  // Use per-document mapping when available
+  if (docId && DOC_RECEIPT_MAP[docId]) {
+    return DOC_RECEIPT_MAP[docId];
+  }
+  // Fallback: category-based mapping
   switch (category) {
     case 'hotel':
       return docIndex % 2 === 0 ? '/receipts/hotel-1.svg' : '/receipts/hotel-2.svg';
@@ -869,7 +977,7 @@ function DocumentReviewTab({ claim }: { claim: typeof mockClaims[0] }) {
           {/* Image area */}
           <div className="flex-1 overflow-auto flex items-center justify-center p-6">
             {(() => {
-              const receiptPath = getReceiptImagePath(selectedDoc.category, selectedDocIdx);
+              const receiptPath = getReceiptImagePath(selectedDoc.category, selectedDocIdx, selectedDoc.id);
               return receiptPath ? (
                 <div
                   className="transition-transform duration-200 w-full max-w-sm"

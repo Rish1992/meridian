@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="560" viewBox="0 0 400 560">
+  <defs><filter id="paper-shadow"><feDropShadow dx="0" dy="2" stdDeviation="4" flood-color="#00000022"/></filter></defs>
+  <rect x="20" y="10" width="360" height="540" rx="3" ry="3" fill="#FAFAF7" filter="url(#paper-shadow)"/>
+  <rect x="20" y="10" width="360" height="540" rx="3" ry="3" fill="#F0EDE0" opacity="0.12"/>
+  <rect x="20" y="10" width="360" height="72" rx="3" ry="3" fill="#00A651"/>
+  <rect x="20" y="50" width="360" height="32" fill="#00A651"/>
+  <text x="78" y="32" font-family="'Arial', sans-serif" font-size="13" font-weight="700" fill="#FFFFFF" letter-spacing="2">CAB RECEIPT</text>
+  <text x="78" y="48" font-family="'Arial', sans-serif" font-size="10" fill="#DDEEFF" letter-spacing="1">CAREEM — TRIP SUMMARY</text>
+  <text x="200" y="73" font-family="'Arial', sans-serif" font-size="10" fill="#DDEEFF" text-anchor="middle" letter-spacing="1">Thank you for riding with Careem</text>
+  <line x1="30" y1="97" x2="370" y2="97" stroke="#E5E0D4" stroke-width="0.5" stroke-dasharray="4,3"/>
+  <text x="40" y="116" font-family="'Arial', sans-serif" font-size="9" fill="#888880" letter-spacing="1">TRIP ID</text>
+  <text x="40" y="130" font-family="'Courier New', monospace" font-size="11" font-weight="700" fill="#2C2A27">CRM-DXB-20260107-4412</text>
+  <text x="360" y="116" font-family="'Arial', sans-serif" font-size="9" fill="#888880" text-anchor="end" letter-spacing="1">DATE</text>
+  <text x="360" y="130" font-family="'Arial', sans-serif" font-size="11" fill="#2C2A27" text-anchor="end">07 Jan 2026</text>
+  <line x1="30" y1="142" x2="370" y2="142" stroke="#E5E0D4" stroke-width="0.5"/>
+  <text x="40" y="160" font-family="'Arial', sans-serif" font-size="9" fill="#888880" letter-spacing="1">TRIP ROUTE</text>
+  <circle cx="48" cy="176" r="5" fill="#22C55E"/>
+  <text x="62" y="180" font-family="'Arial', sans-serif" font-size="11" fill="#2C2A27">DXB Terminal 3</text>
+  <line x1="48" y1="181" x2="48" y2="201" stroke="#CCCCCC" stroke-width="1.5" stroke-dasharray="3,2"/>
+  <circle cx="48" cy="206" r="5" fill="#EF4444"/>
+  <text x="62" y="210" font-family="'Arial', sans-serif" font-size="11" fill="#2C2A27">Rove Hotel Creek</text>
+  <rect x="30" y="222" width="340" height="28" rx="2" fill="#F3F4F6"/>
+  <text x="80" y="237" font-family="'Arial', sans-serif" font-size="9" fill="#888880" text-anchor="middle" letter-spacing="1">DISTANCE</text>
+  <text x="80" y="249" font-family="'Arial', sans-serif" font-size="10" font-weight="700" fill="#2C2A27" text-anchor="middle">18 km</text>
+  <line x1="130" y1="226" x2="130" y2="246" stroke="#E5E7EB" stroke-width="1"/>
+  <text x="200" y="237" font-family="'Arial', sans-serif" font-size="9" fill="#888880" text-anchor="middle" letter-spacing="1">DURATION</text>
+  <text x="200" y="249" font-family="'Arial', sans-serif" font-size="10" font-weight="700" fill="#2C2A27" text-anchor="middle">28 min</text>
+  <line x1="270" y1="226" x2="270" y2="246" stroke="#E5E7EB" stroke-width="1"/>
+  <text x="330" y="237" font-family="'Arial', sans-serif" font-size="9" fill="#888880" text-anchor="middle" letter-spacing="1">VEHICLE</text>
+  <text x="330" y="249" font-family="'Arial', sans-serif" font-size="10" font-weight="700" fill="#2C2A27" text-anchor="middle">Standard</text>
+  <line x1="30" y1="262" x2="370" y2="262" stroke="#E5E0D4" stroke-width="0.5"/>
+  <text x="40" y="278" font-family="'Arial', sans-serif" font-size="9" font-weight="700" fill="#888880" letter-spacing="1">FARE BREAKDOWN</text>
+  <line x1="30" y1="284" x2="370" y2="284" stroke="#E5E0D4" stroke-width="0.5"/>
+  <text x="40" y="301" font-family="'Arial', sans-serif" font-size="11" fill="#2C2A27">Base Fare</text>
+  <text x="360" y="301" font-family="'Courier New', monospace" font-size="11" fill="#2C2A27" text-anchor="end">AED 30.00</text>
+  <text x="40" y="319" font-family="'Arial', sans-serif" font-size="11" fill="#2C2A27">Service Charge &amp; Tax</text>
+  <text x="360" y="319" font-family="'Courier New', monospace" font-size="11" fill="#2C2A27" text-anchor="end">AED 8.00</text>
+  <line x1="30" y1="332" x2="370" y2="332" stroke="#E5E0D4" stroke-width="0.5" stroke-dasharray="4,3"/>
+  <line x1="240" y1="350" x2="370" y2="350" stroke="#00A651" stroke-width="1"/>
+  <rect x="240" y="355" width="130" height="26" rx="2" fill="#00A651" opacity="0.08"/>
+  <text x="252" y="373" font-family="'Arial', sans-serif" font-size="11" font-weight="700" fill="#00A651">TOTAL PAID</text>
+  <text x="358" y="373" font-family="'Courier New', monospace" font-size="12" font-weight="700" fill="#00A651" text-anchor="end">AED 38</text>
+  <text x="40" y="372" font-family="'Arial', sans-serif" font-size="9" fill="#888880" letter-spacing="1">CURRENCY</text>
+  <text x="40" y="386" font-family="'Arial', sans-serif" font-size="10" fill="#2C2A27">AED</text>
+  <text x="40" y="408" font-family="'Arial', sans-serif" font-size="9" fill="#888880" letter-spacing="1">PAYMENT METHOD</text>
+  <text x="40" y="422" font-family="'Arial', sans-serif" font-size="10" fill="#2C2A27">Corporate Card on file</text>
+  <line x1="30" y1="436" x2="370" y2="436" stroke="#E5E0D4" stroke-width="0.5" stroke-dasharray="4,3"/>
+  <text x="200" y="466" font-family="'Arial', sans-serif" font-size="8" fill="#AAAAAA" text-anchor="middle">Careem  |  Auto-generated receipt</text>
+  <text x="200" y="479" font-family="'Arial', sans-serif" font-size="8" fill="#AAAAAA" text-anchor="middle">For queries contact: support@careem.com</text>
+</svg>
